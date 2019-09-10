@@ -1,0 +1,388 @@
+img{
+    max-width: 100%;
+}
+
+
+.logo-principal{
+    margin-top: 15px;
+}
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+}
+
+.menu a{
+    text-decoration: none;
+    color: cadetblue;
+}
+
+.menu a:hover{
+    color: gray;
+}
+
+.img{
+    background-image: url(imagenes/0.-Portadav2-2.jpg);
+    height: 100vh;
+    background-size: cover;
+}
+  
+.titulo-kamanqa{
+    color: white;
+    text-align: left;
+    margin-top: 50px;
+    padding-top: 500px;
+    font-family: Arial;
+}
+
+.titulo-kamanqa h1{
+    font-size: 30px;
+}
+.titulo-kamanqa h2{
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+.raya{
+    border-bottom: 3px solid cyan;
+    width: 50px;
+    margin-bottom: 19px;
+    position: absolute;
+    
+}
+
+.padding-quienes{
+    padding: 65px;
+}
+
+.seccion-quienes-somos{
+    text-align: left;
+    width: 100%;
+}
+
+.seccion-quienes-somos h2{
+    color: #899094;
+    margin-bottom:35px;
+    text-transform: uppercase;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.parrafo-color-azul{
+    color: #27608e;
+    margin-bottom: 40px;
+    font-size: 16px;
+}
+
+.parrafo-color-gris{
+    color: #839ba7;
+    font-size: 16px;
+
+}
+
+.img-quienes-somos{
+  width: 100%;
+}
+
+.quienes-contenedor{
+    position: relative;
+}
+
+.quienes-texto{
+    position: absolute;
+    top: 0;
+    padding: 130px 120px 0 39px;
+}
+
+.quienes-texto p{
+    font-size: 16px;
+    color: #768c8a;
+}
+
+.ancho-50{
+    width: 50%;
+} 
+.fondo-rest{
+    padding-left: 0;
+    padding-right: 0;
+    
+}
+.img-servicios{
+    background-image: url(imagenes/backgroundreperiblegris.jpg);
+    padding: 100px;
+    color: white
+}
+
+.img-servicios h2{
+    text-transform: uppercase;
+    height: 70px;
+}
+
+.img-servicios h3{
+    font-size: 20px;
+    font-weight: bold;
+    height: 60px;
+
+}
+
+
+
+.img-servicios p{
+   font-size: 16px;
+   height: 155px;
+}
+
+
+
+.img-riaza{
+    width: 100%;
+}
+
+
+
+.block{
+    display: block;
+}
+
+.grupo-riaza{
+    display: flex;
+    flex-direction: column;
+    padding: 50px 30px 0 50px; 
+    margin-bottom: 50px;
+}
+
+.grupo-riaza h2{
+    color: #27608e;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-size: 30px;
+    margin-top: 40px;
+}
+
+.grupo-riaza p{
+    color: #839ba7;
+    margin-top: 70px;
+}
+
+.wihtd{
+    width: 32%;
+}
+
+.servicios-visivility{
+    visibility: hidden;
+}
+
+
+.menu-footer{
+    background-image: url(imagenes/backgroundreperibleturqueza.jpg);
+    color: white;
+    clear: both;
+    text-align: center;
+
+}
+
+.menu-footer h2{
+    color: white;
+    text-transform: uppercase;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+
+
+
+.menu-footer a{    
+    color: white;  
+    text-decoration: none;
+
+}
+.menu-footer a:hover{
+    text-decoration: underline;
+}
+.final{
+    background-color: cornflowerblue;
+    height: 40px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+
+}
+
+.logo-final{
+    display: flex;
+}
+
+.logo-final div{
+    margin-right: 20px;
+}
+
+
+.texto-menu{
+    font-weight: bold;
+    float: left;
+    margin-top: 35px;
+}
+
+.linea{
+    border-bottom: 3px solid cadetblue;
+    margin: 5px;
+    width: 45px;
+}
+.linea-contenedor{
+    float: left;
+    margin-top: 35px;
+    margin-left: 15px;
+}
+
+@media (min-width: 768px) and (max-width:1024px){
+
+    .logo-principal{
+        margin-top: 10px;
+    }
+    .titulo-kamanqa h1{
+        font-size: 25px;
+    }
+
+    .titulo-kamanqa h2{
+        font-size: 35px;
+    }
+
+    .seccion-quienes-somos p{
+        font-size: 20px;
+    }
+
+    .servicios-visivility{
+        visibility: visible;
+        margin-bottom: 20px;
+        text-align: center;
+        
+    }
+
+    .servicios-visivility a{
+        color: white;
+        background-color: #899094;
+       
+    }
+
+    .width{
+        width: 50;
+    } 
+
+    .quienes-texto p{
+        font-size: 20px;
+    }
+
+    .grupo-riaza h2{
+        margin-bottom: 20px;
+        margin-top: 15px;
+    }
+
+    .grupo-riaza p{
+        margin-top: 15px
+    };
+}
+
+@media (min-width: 320px) and (max-width:568px){
+
+
+    .titulo-kamanqa{
+        padding-top: 200px;
+    }
+
+    .titulo-kamanqa h1{
+        font-size: 20px;
+    }
+
+    .titulo-kamanqa h2{
+        font-size: 35px;
+    }
+
+    .menu{
+        visibility: hidden;
+    }
+
+    .menu li{
+        padding-left: 30px;
+        line-height: 1.5;
+        text-transform: uppercase;
+        font-size: 15px;
+    }
+
+    .menu li:focus{
+        text-decoration: underline;
+
+    }
+
+    .menu-hamburguesa:hover +.menu{
+        display: block;
+        visibility: visible;
+        width: 100vw;
+        background:white;
+        position: absolute;
+        left: 0;
+        top: 70px;
+        padding-bottom: 12px
+    }
+
+    .seccion-quienes-somos h2{
+        font-size: 25px;
+
+    }
+
+    .seccion-quienes-somos p{
+        font-size: 16px;
+    }
+
+    .padding-quienes{
+        padding: 50px;
+    }
+    
+    .img-servicios{
+        padding: 0;
+        text-align: center;
+    }
+
+    .img-servicios h2{
+        padding-top: 20px;
+        font-size: 25px;
+    }
+
+    .grupo-riaza h2{
+        font-size: 25px;
+        margin-top: 15px;
+        margin-bottom: 5px;
+    }
+
+    .grupo-riaza p{
+        margin-top: 10px;
+    }
+    .servicios-visivility{
+        visibility: visible;
+        margin-bottom: 20px;
+        text-align: center;
+        
+    }
+    .servicios-visivility a{
+        color: white;
+        background-color: #899094;
+       
+    }
+    
+
+    .informacion-mobile{
+        margin-bottom: 30px;
+    }
+
+    .final p{
+        font-size: 12px;
+    }
+
+    
+
+}
+
+
